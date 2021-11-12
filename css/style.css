@@ -21,6 +21,15 @@ a {
     text-decoration: none;
 }
 
+p {
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 375%;
+    margin-bottom: 30px;
+}
+
 ul {
     list-style: none;
 }
@@ -38,15 +47,33 @@ ul {
     padding: 0 20px;
 }
 
+.lead {
+    font-size: 125%;
+    margin-bottom: 30px;
+}
+
 .text-primary {
     color: #c08af7;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 112.5%;
+    padding: 15px 20px;
+    background-color: #333;
+    transition: color 0.2s, background-color 0.2s;
+}
+
+.btn:hover {
+    color: #333;
+    background-color: #c08af7;
 }
 
 /* Header */
 .logo {
     float: left;
-    margin-top: 15px;
-    font-size: 160%;
+    margin-top: 14px;
+    font-size: 180%;
     font-weight: bold;
     letter-spacing: 0.5px;
     transition: color 0.2s;
@@ -72,5 +99,20 @@ header nav {
 
 .navbar li a:hover {
     color: #c08af7;
-    background-color: #666;
+    background-color: #444;
+}
+
+.navbar li.current a {
+    color: #c08af7;
+    background-color: #444;
+}
+
+/* Showcase */
+.showcase {
+    background-image: linear-gradient(#0009, #000d), url('../img/showcase.jpg');
+}
+
+.showcase-content {
+    padding: 180px 0 220px;
+    text-align: center;
 }
