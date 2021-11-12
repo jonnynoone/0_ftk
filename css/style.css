@@ -35,7 +35,7 @@ h1 {
 }
 
 h2 {
-    font-size: 240%;
+    font-size: 250%;
     margin-bottom: 20px;
 }
 
@@ -203,9 +203,8 @@ header nav {
     float: left;
 }
 
-.about > .container > div {
-    width: 50%;
-    float: left;
+.about p {
+    margin-bottom: 20px;
 }
 
 .about img {
@@ -213,6 +212,40 @@ header nav {
     width: 70%;
     margin: 0 auto;
     border-radius: 50%;
+}
+
+/* Testimonials */
+.testimonials {
+    padding: 70px 0 60px;
+    background-image: linear-gradient(#000d, #0003), url('../img/testimonials.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+.testimonials h2 {
+    margin-bottom: 40px;
+}
+
+.testimonial {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #c08af7dd;
+    margin-bottom: 50px;
+}
+
+.testimonial img {
+    float: left;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.testimonial p {
+    float: left;
+    margin-top: 10px;
+    padding-left: 20px;
+    line-height: 180%;
+    max-width: calc(100% - 100px);
 }
 
 /* Footer */
