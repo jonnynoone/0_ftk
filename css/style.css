@@ -30,6 +30,16 @@ h1 {
     margin-bottom: 30px;
 }
 
+h3 {
+    font-size: 160%;
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-size: 120%;
+    margin-bottom: 10px;
+}
+
 ul {
     list-style: none;
 }
@@ -47,6 +57,14 @@ ul {
     padding: 0 20px;
 }
 
+.py-10 { padding-top: 10px; padding-bottom: 10px; }
+.py-20 { padding-top: 20px; padding-bottom: 20px; }
+.py-30 { padding-top: 30px; padding-bottom: 30px; }
+
+.center {
+    text-align: center;
+}
+
 .lead {
     font-size: 125%;
     margin-bottom: 30px;
@@ -54,6 +72,21 @@ ul {
 
 .text-primary {
     color: #c08af7;
+}
+
+.bg-primary {
+    color: #333;
+    background-color: #c08af7;
+}
+
+.bg-light {
+    color: #333;
+    background-color: #fff;
+}
+
+.bg-dark {
+    color: #fff;
+    background-color: #333;
 }
 
 .btn {
@@ -67,6 +100,17 @@ ul {
 .btn:hover {
     color: #333;
     background-color: #c08af7;
+}
+
+.btn-primary {
+    color: #333;
+    background-color: #f0f0f0;
+}
+
+.box {
+    width: 33.3%;
+    float: left;
+    padding: 50px 20px;
 }
 
 /* Header */
@@ -109,10 +153,36 @@ header nav {
 
 /* Showcase */
 .showcase {
-    background-image: linear-gradient(#0009, #000d), url('../img/showcase.jpg');
+    background-image: linear-gradient(#000a, #000a), url('../img/showcase.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .showcase-content {
     padding: 180px 0 220px;
     text-align: center;
 }
+
+/* Info Section */
+.info-left {
+    float: left;
+    width: 50%;
+    min-height: 400px;
+    background-image: linear-gradient(#0003, #000c), url('../img/photo-1.jpg');
+    background-position: top center;
+}
+
+.info-right {
+    float: right;
+    width: 50%;
+    padding: 80px 30px;
+    min-height: 400px;
+}
+
+.info-right p {
+    line-height: 180%;
+    margin-bottom: 40px;
+}
+
+/* Features Section */
