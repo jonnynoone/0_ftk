@@ -185,4 +185,7 @@ header nav {
     margin-bottom: 40px;
 }
 
-/* Features Section */
+/* Footer */
+footer p {
+    margin-bottom: 0;
+}
